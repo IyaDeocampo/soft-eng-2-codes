@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reports</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="title-group">
+        <h1>Generate Reports</h1>
+        <p class="subtitle">hahahahahaha</p>
+      </div>
+     
+      <img src="companylogo.png" alt="Company Logo" class="header-logo" />
+    </div>
+  </header>
+
+  <main class="wrap main">
+    <section class="controls">
+      <div class="field">
+        <label for="startDate">Start date</label>
+        <input id="startDate" type="date" />
+      </div>
+      <div class="field">
+        <label for="endDate">End date</label>
+        <input id="endDate" type="date" />
+      </div>
+      <div class="field">
+        <label for="reportType">Report type</label>
+        <select id="reportType">
+          <option>Feedback</option>
+          <option>Approval for Replacement</option>
+          <option>Defective</option>
+        </select>
+      </div>
+      <div class="actions">
+        <button class="btn primary">Generate</button>
+        <button class="btn ghost">Export</button>
+      </div>
+    </section>
+
+    <section class="results">
+      <table class="results-table">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© GTC-Aldis Philippines, Inc. — Reports</div>
+  </footer>
+</body>
+</html>
